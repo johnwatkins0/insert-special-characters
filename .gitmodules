@@ -1,0 +1,3 @@
+[submodule "assets/vendor/react-character-map"]
+	path = assets/vendor/react-character-map
+	url = https://github.com/adamsilverstein/react-character-map.git

@@ -1,0 +1,178 @@
+{
+    "Special characters": [
+
+
+           {"char": "™", "name": "TRADEMARK SIGN" }
+
+           ,{ "entity": "&copy;", "hex": "&#00A9;", "name": "COPYRIGHT SIGN", "char": "©" }
+           ,{ "entity": "&reg;", "hex": "&#00AE;", "name": "REGISTERED SIGN", "char": "®" }
+           ,{"char": "$" }
+           ,{"char": "€" }
+           ,{ "entity": "&cent;", "hex": "&#00A2;", "name": "CENT SIGN", "char": "¢" }
+           ,{ "entity": "&pound;", "hex": "&#00A3;", "name": "POUND SIGN", "char": "£" }
+           ,{ "entity": "&curren;", "hex": "&#00A4;", "name": "CURRENCY SIGN", "char": "¤" }
+           ,{ "entity": "&yen;", "hex": "&#00A5;", "name": "YEN SIGN", "char": "¥" }
+           ,{ "entity": "&para;", "hex": "&#00B6;", "name": "PILCROW SIGN", "char": "¶" }
+           ,{ "entity": "&sect;", "hex": "&#00A7;", "name": "SECTION SIGN", "char": "§" }
+
+           ,{ "char": "❝" }
+           ,{ "char":"❞" }
+           ,{ "char":"∞" }
+           ,{ "char":"ø" }
+           ,{ "char":"≠" }
+           ,{ "char":"%" }
+           ,{ "char":"…" }
+           ,{ "char":"∫" }
+           ,{ "char":"≈" }
+           ,{ "char":"∴" }
+           ,{ "char":"∝" }
+           ,{ "char":"µ" }
+           ,{ "char":"∂" }
+           ,{ "char":"Ω" }
+           ,{ "char":"Φ" }
+           ,{ "char":"Ψ" }
+           ,{ "char":"λ" }
+           ,{ "char":"ϴ" }
+           ,{ "char":"ω" }
+           ,{ "char":"ꝏ" }
+           ,{ "char":"ᵠ" }
+           ,{ "char":"℃" }
+           ,{ "char":"℉" }
+           ,{ "char":"⚑" }
+           ,{ "char":"⚐" }
+           ,{ "char":"❦" }
+           ,{ "char":"☙" }
+           ,{ "char":"♨" }
+           ,{ "char":"☁" }
+           ,{ "char":"⚖" },
+        { "hex": "&#2200;" , "entity": "&forall;", "name": "FOR ALL", "char": "∀" }
+       ,{ "hex": "&#2201;", "name": "COMPLEMENT", "char": "∁" }
+       ,{ "hex": "&#2202;" , "entity": "&part;", "name": "PARTIAL DIFFERENTIAL", "char": "∂" }
+       ,{ "hex": "&#2203;" , "entity": "&exist;", "name": "THERE EXISTS", "char": "∃" }
+       ,{ "hex": "&#2204;", "name": "THERE DOES NOT EXIST", "char": "∄" }
+       ,{ "hex": "&#2205;" , "entity": "&empty;", "name": "EMPTY SET", "char": "∅" }
+       ,{ "hex": "&#2206;", "name": "INCREMENT", "char": "∆" }
+       ,{ "hex": "&#2207;" , "entity": "&nabla;", "name": "NABLA", "char": "∇" }
+       ,{ "hex": "&#2208;" , "entity": "&isin;", "name": "ELEMENT OF", "char": "∈" }
+       ,{ "hex": "&#2209;" , "entity": "&notin;", "name": "NOT AN ELEMENT OF", "char": "∉" }
+       ,{ "hex": "&#220A;", "name": "SMALL ELEMENT OF", "char": "∊" }
+       ,{ "hex": "&#220B;" , "entity": "&ni;", "name": "CONTAINS AS MEMBER", "char": "∋" }
+       ,{ "hex": "&#220C;", "name": "DOES NOT CONTAIN AS MEMBER", "char": "∌" }
+       ,{ "hex": "&#220D;", "name": "SMALL CONTAINS AS MEMBER", "char": "∍" }
+       ,{ "hex": "&#220E;", "name": "END OF PROOF", "char": "∎" }
+       ,{ "hex": "&#220F;" , "entity": "&prod;", "name": "N-ARY PRODUCT", "char": "∏" }
+       ,{ "hex": "&#2210;", "name": "N-ARY COPRODUCT", "char": "∐" }
+       ,{ "hex": "&#2211;" , "entity": "&sum;", "name": "N-ARY SUMMATION", "char": "∑" }
+       ,{ "hex": "&#2212;" , "entity": "&minus;", "name": "MINUS SIGN", "char": "−" }
+       ,{ "hex": "&#2213;", "name": "MINUS-OR-PLUS SIGN", "char": "∓" }
+       ,{ "hex": "&#2214;", "name": "DOT PLUS", "char": "∔" }
+       ,{ "hex": "&#2215;", "name": "DIVISION SLASH", "char": "∕" }
+       ,{ "hex": "&#2216;", "name": "SET MINUS", "char": "∖" }
+       ,{ "hex": "&#2217;" , "entity": "&lowast;", "name": "ASTERISK OPERATOR", "char": "∗" }
+       ,{ "hex": "&#2218;", "name": "RING OPERATOR", "char": "∘" }
+       ,{ "hex": "&#2219;", "name": "BULLET OPERATOR", "char": "∙" }
+       ,{ "hex": "&#221A;" , "entity": "&radic;", "name": "SQUARE ROOT", "char": "√" }
+       ,{ "hex": "&#221B;", "name": "CUBE ROOT", "char": "∛" }
+       ,{ "hex": "&#221C;", "name": "FOURTH ROOT", "char": "∜" }
+       ,{ "hex": "&#221D;" , "entity": "&prop;", "name": "PROPORTIONAL TO", "char": "∝" }
+       ,{ "hex": "&#221E;" , "entity": "&infin;", "name": "INFINITY", "char": "∞" }
+       ,{ "hex": "&#221F;", "name": "RIGHT ANGLE", "char": "∟" }
+       ,{ "hex": "&#2220;" , "entity": "&ang;", "name": "ANGLE", "char": "∠" }
+       ,{ "hex": "&#2221;", "name": "MEASURED ANGLE", "char": "∡" }
+       ,{ "hex": "&#2222;", "name": "SPHERICAL ANGLE", "char": "∢" }
+       ,{ "hex": "&#2223;", "name": "DIVIDES", "char": "∣" }
+       ,{ "hex": "&#2224;", "name": "DOES NOT DIVIDE", "char": "∤" }
+       ,{ "hex": "&#2225;", "name": "PARALLEL TO", "char": "∥" }
+       ,{ "hex": "&#2226;", "name": "NOT PARALLEL TO", "char": "∦" }
+       ,{ "hex": "&#2227;" , "entity": "&and;", "name": "LOGICAL AND", "char": "∧" }
+       ,{ "hex": "&#2228;" , "entity": "&or;", "name": "LOGICAL OR", "char": "∨" }
+       ,{ "hex": "&#2229;" , "entity": "&cap;", "name": "INTERSECTION", "char": "∩" }
+       ,{ "hex": "&#222A;" , "entity": "&cup;", "name": "UNION", "char": "∪" }
+       ,{ "hex": "&#222B;" , "entity": "&int;", "name": "INTEGRAL", "char": "∫" }
+       ,{ "hex": "&#222C;", "name": "DOUBLE INTEGRAL", "char": "∬" }
+       ,{ "hex": "&#222D;", "name": "TRIPLE INTEGRAL", "char": "∭" }
+       ,{ "hex": "&#222E;", "name": "CONTOUR INTEGRAL", "char": "∮" }
+       ,{ "hex": "&#222F;", "name": "SURFACE INTEGRAL", "char": "∯" }
+       ,{ "hex": "&#2230;", "name": "VOLUME INTEGRAL", "char": "∰" }
+       ,{ "hex": "&#2231;", "name": "CLOCKWISE INTEGRAL", "char": "∱" }
+       ,{ "hex": "&#2232;", "name": "CLOCKWISE CONTOUR INTEGRAL", "char": "∲" }
+       ,{ "hex": "&#2233;", "name": "ANTICLOCKWISE CONTOUR INTEGRAL", "char": "∳" }
+       ,{ "hex": "&#2234;" , "entity": "&there4;", "name": "THEREFORE", "char": "∴" }
+       ,{ "hex": "&#2235;", "name": "BECAUSE", "char": "∵" }
+       ,{ "hex": "&#2236;", "name": "RATIO", "char": "∶" }
+       ,{ "hex": "&#2237;", "name": "PROPORTION", "char": "∷" }
+       ,{ "hex": "&#2238;", "name": "DOT MINUS", "char": "∸" }
+       ,{ "hex": "&#2239;", "name": "EXCESS", "char": "∹" }
+       ,{ "hex": "&#223A;", "name": "GEOMETRIC PROPORTION", "char": "∺" }
+       ,{ "hex": "&#223B;", "name": "HOMOTHETIC", "char": "∻" }
+       ,{ "hex": "&#223C;" , "entity": "&sim;", "name": "TILDE OPERATOR", "char": "∼" }
+       ,{ "hex": "&#223D;", "name": "REVERSED TILDE", "char": "∽" }
+       ,{ "hex": "&#223E;", "name": "INVERTED LAZY S", "char": "∾" }
+       ,{ "hex": "&#223F;", "name": "SINE WAVE", "char": "∿" }
+       ,{ "hex": "&#2240;", "name": "WREATH PRODUCT", "char": "≀" }
+       ,{ "hex": "&#2241;", "name": "NOT TILDE", "char": "≁" }
+       ,{ "hex": "&#2242;", "name": "MINUS TILDE", "char": "≂" }
+       ,{ "hex": "&#2243;", "name": "ASYMPTOTICALLY EQUAL TO", "char": "≃" }
+       ,{ "hex": "&#2244;", "name": "NOT ASYMPTOTICALLY EQUAL TO", "char": "≄" }
+       ,{ "hex": "&#2245;" , "entity": "&cong;", "name": "APPROXIMATELY EQUAL TO", "char": "≅" }
+       ,{ "hex": "&#2246;", "name": "APPROXIMATELY BUT NOT ACTUALLY EQUAL TO", "char": "≆" }
+       ,{ "hex": "&#2247;", "name": "NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO", "char": "≇" }
+       ,{ "hex": "&#2248;" , "entity": "&asymp;", "name": "ALMOST EQUAL TO", "char": "≈" }
+       ,{ "hex": "&#2249;", "name": "NOT ALMOST EQUAL TO", "char": "≉" }
+       ,{ "hex": "&#224A;", "name": "ALMOST EQUAL OR EQUAL TO", "char": "≊" }
+       ,{ "hex": "&#224B;", "name": "TRIPLE TILDE", "char": "≋" }
+       ,{ "hex": "&#224C;", "name": "ALL EQUAL TO", "char": "≌" }
+       ,{ "hex": "&#224D;", "name": "EQUIVALENT TO", "char": "≍" }
+       ,{ "hex": "&#224E;", "name": "GEOMETRICALLY EQUIVALENT TO", "char": "≎" }
+       ,{ "hex": "&#224F;", "name": "DIFFERENCE BETWEEN", "char": "≏" }
+       ,{ "hex": "&#2250;", "name": "APPROACHES THE LIMIT", "char": "≐" }
+       ,{ "hex": "&#2251;", "name": "GEOMETRICALLY EQUAL TO", "char": "≑" }
+       ,{ "hex": "&#2252;", "name": "APPROXIMATELY EQUAL TO OR THE IMAGE OF", "char": "≒" }
+       ,{ "hex": "&#2253;", "name": "IMAGE OF OR APPROXIMATELY EQUAL TO", "char": "≓" }
+       ,{ "hex": "&#2254;", "name": "COLON EQUALS", "char": "≔" }
+       ,{ "hex": "&#2255;", "name": "EQUALS COLON", "char": "≕" }
+       ,{ "hex": "&#2256;", "name": "RING IN EQUAL TO", "char": "≖" }
+       ,{ "hex": "&#2257;", "name": "RING EQUAL TO", "char": "≗" }
+       ,{ "hex": "&#2258;", "name": "CORRESPONDS TO", "char": "≘" }
+       ,{ "hex": "&#2259;", "name": "ESTIMATES", "char": "≙" }
+       ,{ "hex": "&#225A;", "name": "EQUIANGULAR TO", "char": "≚" }
+       ,{ "hex": "&#225B;", "name": "STAR EQUALS", "char": "≛" }
+       ,{ "hex": "&#225C;", "name": "DELTA EQUAL TO", "char": "≜" }
+       ,{ "hex": "&#225D;", "name": "EQUAL TO BY DEFINITION", "char": "≝" }
+       ,{ "hex": "&#225E;", "name": "MEASURED BY", "char": "≞" }
+       ,{ "hex": "&#225F;", "name": "QUESTIONED EQUAL TO", "char": "≟" }
+       ,{ "hex": "&#2260;" , "entity": "&ne;", "name": "NOT EQUAL TO", "char": "≠" }
+       ,{ "hex": "&#2261;" , "entity": "&equiv;", "name": "IDENTICAL TO", "char": "≡" }
+       ,{ "hex": "&#2262;", "name": "NOT IDENTICAL TO", "char": "≢" }
+       ,{ "hex": "&#2263;", "name": "STRICTLY EQUIVALENT TO", "char": "≣" }
+       ,{ "hex": "&#2264;" , "entity": "&le;", "name": "LESS-THAN OR EQUAL TO", "char": "≤" }
+       ,{ "hex": "&#2265;" , "entity": "&ge;", "name": "GREATER-THAN OR EQUAL TO", "char": "≥" }
+       ,{ "hex": "&#2266;", "name": "LESS-THAN OVER EQUAL TO", "char": "≦" }
+       ,{ "hex": "&#2267;", "name": "GREATER-THAN OVER EQUAL TO", "char": "≧" }
+       ,{ "hex": "&#2268;", "name": "LESS-THAN BUT NOT EQUAL TO", "char": "≨" }
+       ,{ "hex": "&#2269;", "name": "GREATER-THAN BUT NOT EQUAL TO", "char": "≩" }
+       ,{ "hex": "&#226A;", "name": "MUCH LESS-THAN", "char": "≪" }
+       ,{ "hex": "&#226B;", "name": "MUCH GREATER-THAN", "char": "≫" }
+       ,{ "hex": "&#226C;", "name": "BETWEEN", "char": "≬" }
+       ,{ "hex": "&#226D;", "name": "NOT EQUIVALENT TO", "char": "≭" }
+       ,{ "hex": "&#226E;", "name": "NOT LESS-THAN", "char": "≮" }
+       ,{ "hex": "&#226F;", "name": "NOT GREATER-THAN", "char": "≯" }
+       ,{ "hex": "&#2270;", "name": "NEITHER LESS-THAN NOR EQUAL TO", "char": "≰" }
+       ,{ "hex": "&#2271;", "name": "NEITHER GREATER-THAN NOR EQUAL TO", "char": "≱" }
+       ,{ "hex": "&#2272;", "name": "LESS-THAN OR EQUIVALENT TO", "char": "≲" }
+       ,{ "hex": "&#2273;", "name": "GREATER-THAN OR EQUIVALENT TO", "char": "≳" }
+       ,{ "hex": "&#2274;", "name": "NEITHER LESS-THAN NOR EQUIVALENT TO", "char": "≴" }
+       ,{ "hex": "&#2275;", "name": "NEITHER GREATER-THAN NOR EQUIVALENT TO", "char": "≵" }
+       ,{ "hex": "&#2276;", "name": "LESS-THAN OR GREATER-THAN", "char": "≶" }
+       ,{ "hex": "&#2277;", "name": "GREATER-THAN OR LESS-THAN", "char": "≷" }
+       ,{ "hex": "&#2278;", "name": "NEITHER LESS-THAN NOR GREATER-THAN", "char": "≸" }
+       ,{ "hex": "&#2279;", "name": "NEITHER GREATER-THAN NOR LESS-THAN", "char": "≹" }
+       ,{ "hex": "&#227A;", "name": "PRECEDES", "char": "≺" }
+       ,{ "hex": "&#227B;", "name": "SUCCEEDS", "char": "≻" }
+       ,{ "hex": "&#227C;", "name": "PRECEDES OR EQUAL TO", "char": "≼" }
+       ,{ "hex": "&#227D;", "name": "SUCCEEDS OR EQUAL TO", "char": "≽" }
+       ,{ "hex": "&#227E;", "name": "PRECEDES OR EQUIVALENT TO", "char": "≾" }
+
+	]
+
+   }

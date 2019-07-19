@@ -4,8 +4,9 @@ const { createElement, Fragment } = wp.element;
 const { RichTextToolbarButton, RichTextShortcut } = wp.editor;
 const { Popover } = wp.components;
 const { getRectangleFromRange } = wp.dom;
+import characters from './chars.json';
 
-import { CharacterMap } from 'react-character-map';
+import { CharacterMap } from '../assets/vendor/react-character-map/dist/';
 import './insert-special-characters.css';
 const InsertSpecialCharactersOptions = {
 	name: 'specialcharacters',
@@ -71,6 +72,7 @@ registerFormatType( type, {
 							}
 						}
 						key="charmap"
+						passedChars={ characters }
 					/>
 				</Popover>
 			);
