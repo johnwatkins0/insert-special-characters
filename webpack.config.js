@@ -1,13 +1,13 @@
 const WebpackBar = require( 'webpackbar' );
+const path = require( 'path' );
 
 module.exports = [
-
 	// Build the settings js..
 	{
-		entry: [ './src/insert-special-characters.js' ],
+		entry: ['./src/insert-special-characters.js'],
 		output: {
 			filename: 'insert-special-characters.js',
-			path: __dirname + '/dist/',
+			path: __dirname + '/dist/'
 		},
 		module: {
 			rules: [
@@ -18,25 +18,33 @@ module.exports = [
 						{
 							loader: 'babel-loader',
 							query: {
-								presets: [ [ '@babel/env', {
-									'useBuiltIns': 'entry',
-								} ], '@babel/preset-react' ],
+								presets: [
+									[
+										'@babel/env',
+										{
+											useBuiltIns: 'entry'
+										}
+									],
+									'@babel/preset-react'
+								]
 							}
 						}
 					]
 				},
 				{
 					test: /\.css$/,
-					use: [ 'style-loader', 'css-loader' ],
-				},
+					use: ['style-loader', 'css-loader']
+				}
 			]
 		},
-		plugins: [ new WebpackBar(
-			{
+		plugins: [
+			new WebpackBar( {
 				name: 'Plugin Entry Points',
-				color: '#B6CD58',
-			}
-		) ],
-	},
-
+				color: '#B6CD58'
+			} )
+		],
+		externals: {
+			react: 'window.React'
+		}
+	}
 ];

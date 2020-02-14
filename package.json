@@ -21,15 +21,15 @@
     "eslint": "^6.6.0",
     "eslint-loader": "^3.0.2",
     "eslint-plugin-react": "^7.16.0",
-    "react": "^16.11.0",
     "react-character-map": "^0.2.2",
-    "react-dom": "^16.11.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
     "webpackbar": "^4.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.12.0"
+  },
   "globals": {
     "wp": "off"
   }
