@@ -24,7 +24,7 @@ function gcm_block_enqueue_scripts() {
 	wp_enqueue_script(
 		'insert-special-characters',
 		plugin_dir_url( __FILE__ ) . 'dist/insert-special-characters.js',
-		array( 'wp-blocks', 'wp-i18n', 'wp-editor' ),
+		array( 'wp-blocks', 'wp-i18n', 'wp-editor', 'react' ),
 		'',
 		true
 	);
